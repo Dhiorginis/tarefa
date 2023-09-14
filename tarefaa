@@ -1,0 +1,24 @@
+Algoritmo "distancia"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   :
+// Descrição   :
+// Autor(a)    : dyg
+// Data atual  : 14/09/2698
+Var
+distanciaM,Km,hm,Dam,dm,cm,mm:real
+Inicio
+escreval("informe distância em metros:")
+leia(distanciaM)
+
+km<-distanciaM/1000
+hm<-distanciaM/100
+dam<-distanciaM/10
+dm<-distanciaM*10
+cm<-distanciaM*100
+mm<-distanciaM*1000
+escreval("a distância informada corresponde a:",km,"em km")
+escreval("a distancia informada corresponde a:",hm,"em hm")
+escreval("a distancia informada corresponde a:",dm,"em dm")
+escreval("a distancia informada corresponde a:",cm,"em cm")
+escreval("a distancia informada corresponde a:",mm,"em mm")
+Fimalgoritmo
